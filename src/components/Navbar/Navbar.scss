@@ -1,0 +1,24 @@
+.navs{
+    padding: .8rem 0;
+    background-color: #FFB100;
+
+    &-container{
+        display: flex;
+        align-items: center;
+
+        h3{
+            color: #252525;
+            margin: 0;
+        }
+        &__links{
+            margin-right: 2rem;
+
+            a{
+                margin-left: 1.5rem;
+                font-size: 1.1rem;
+                color: #252525;
+            }
+        }
+    }
+
+}
